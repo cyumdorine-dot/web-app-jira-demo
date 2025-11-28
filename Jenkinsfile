@@ -2,7 +2,7 @@ pipeline {
     agent any 
  
     environment { 
-        DOCKER_IMAGE = 'dockerhub_username/my-web-app' 
+        DOCKER_IMAGE = 'dockerhub_jenkinfile/web-app-jira-demo' 
         DOCKER_CREDENTIALS_ID = 'docker-hub-credentials' 
     } 
  
